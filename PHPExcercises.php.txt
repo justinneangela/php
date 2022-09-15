@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+	//Exercise 1
+	print "Twinkle, Twinkle little star.";
+	$t = "Twinkle";
+    $s = "star";
+    echo "<br> $t, $t, little $s.";
+    
+    //Excercise 2
+    $x = 10;
+    $y = 7;
+    echo "<br> <br> $x + $y = " . ($x + $y) ."<br>";
+    echo "$x + $y = " . ($x - $y) ."<br>";
+    echo "$x + $y = " . ($x * $y) ."<br>";
+    echo "$x + $y = " . ($x / $y) ."<br>";
+    echo "$x + $y = " . ($x % $y) ."<br>";
+    
+    
+    //Excercise 3
+    $value = "Value is now ";
+    $num = 8;
+    echo "<br> $value $num.";
+    $add = $num + 2;
+    echo "<br> Add 2. $value $add.";
+    $sub = $add - 4;
+    echo "<br> Subtract 4. $value $sub.";
+    $mul = $sub * 5;
+    echo "<br> Multiply 5. $value $mul.";
+    $div = $mul / 3;
+    echo "<br> Divide by 3. $value $div.";
+    $inc = $div + 1;
+    echo "<br> Increment value by one. $value $inc.";
+    $dec = $inc - 1;
+    echo "<br> Decrement value by one. $value $dec.";
+    
+	//Exercise 4
+    $a = "Harry";
+    echo "<br> <br>"; 
+    var_dump($a);
+	echo "<br>";
+    print_r($a);
+    $b = 28;
+    echo "<br>";
+    var_dump($b);
+    $c = NULL;
+    echo "<br>";
+    var_dump($c)
+?>
+
+</body>
+</html>
